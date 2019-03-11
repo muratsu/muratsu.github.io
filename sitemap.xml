@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://occupymatrix.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/posts/a-different-take-on-luck-in-life/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/posts/top-3-languages-bay-area-software-engineering-jobs-2018/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/posts/celebrating-codelas-first-year/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/posts/on-resilience/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/tag/developers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/tag/entrepreneurship</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/tag/jobs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/tag/startup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/category/codela</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/category/data</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/category/life</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://occupymatrix.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
