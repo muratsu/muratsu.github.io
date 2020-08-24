@@ -11,6 +11,8 @@ tags:
 description: "\"Your luck\" depends on your ability to reverse engineering existing processes and improving the odds. What are you doing about this?"
 ---
 
+$a^2 + b^2 = c^2$
+
 > If you’re not constantly re-evaluating the situation you’re in and readjusting, you’re just giving up and using luck as a scapegoat.
 
 ![snake eyes](/media/luck-dice.jpg)

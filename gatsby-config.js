@@ -189,6 +189,7 @@ module.exports = {
           camelCase: false,
         }
       }
-    }
+    },
+    'gatsby-plugin-emotion'
   ]
 };
