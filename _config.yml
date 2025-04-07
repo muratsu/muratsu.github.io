@@ -19,15 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Occupy Matrix
-email: your-email@example.com
+email: murat@rapidpages.io
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: muratsutunc
+github_username:  muratsu
 
 # Build settings
 remote_theme: jekyll/minima
@@ -39,7 +39,22 @@ plugins:
 minima:
   skin: auto
   show_excerpts: false
-
+  nav_pages:
+    - about.md
+  nav_links:
+    - title: Twitter
+      url: "https://x.com/muratsutunc"
+    - title: GitHub
+      url: "https://github.com/muratsu"
+    - title: Email
+      url: "mailto:murat@rapidpages.io"
+  social_links:
+    - title: Twitter
+      icon: x-twitter
+      url: "https://x.com/muratsutunc"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/muratsu"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
