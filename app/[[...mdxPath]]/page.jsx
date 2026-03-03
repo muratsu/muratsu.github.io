@@ -5,6 +5,7 @@ import { getPosts } from '../../lib/posts'
 import { siteDescription, siteTitle } from '../../lib/site'
 import { useMDXComponents as getMDXComponents } from '../../mdx-components'
 
+export const dynamic = 'force-static'
 export const dynamicParams = false
 export const generateStaticParams = generateStaticParamsFor('mdxPath')
 

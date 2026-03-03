@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-The site exports to `out/` and is ready for GitHub Pages deployment.
+The site exports to `out/` as static files and is ready for Vercel static hosting.

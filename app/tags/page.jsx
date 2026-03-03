@@ -2,6 +2,8 @@ import Link from 'next/link'
 
 import { getTagCounts } from '../../lib/posts'
 
+export const dynamic = 'force-static'
+
 export const metadata = {
   title: 'Tags',
   description: 'Browse Occupy Matrix posts by topic.'

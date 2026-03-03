@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { PostFeed } from '../../../components/post-feed'
 import { getPostsByTag, getTags } from '../../../lib/posts'
 
+export const dynamic = 'force-static'
 export const dynamicParams = false
 
 export async function generateStaticParams() {

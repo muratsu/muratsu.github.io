@@ -1,5 +1,7 @@
-import { getPosts, getTags } from '../../lib/posts'
+import { getPosts } from '../../lib/posts'
 import { PostFeed } from '../../components/post-feed'
+
+export const dynamic = 'force-static'
 
 export const metadata = {
   title: 'Posts',
