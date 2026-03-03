@@ -1,6 +1,6 @@
 # Repository Guide for Contributors
 
-Welcome! This repository hosts a Jekyll-based site. Please follow these guidelines when making changes:
+Welcome! This repository hosts a static site built with Next.js and Nextra. Please follow these guidelines when making changes:
 
 ## Scope
 - These instructions apply to the entire repository unless a more specific `AGENTS.md` is added in a subdirectory.
@@ -11,8 +11,8 @@ Welcome! This repository hosts a Jekyll-based site. Please follow these guidelin
 - For Sass/CSS changes, follow the existing naming patterns and keep variables in `_sass` organized by file purpose.
 
 ## Testing and Verification
-- Before submitting changes, run a local build to ensure the site compiles: `bundle exec jekyll build`.
-- For layout or style updates, visually verify the affected page(s) in a local `bundle exec jekyll serve` session.
+- Before submitting changes, run a local build to ensure the site compiles: `npm run build`.
+- For layout or style updates, visually verify the affected page(s) in a local `npm run dev` session.
 
 ## Git and Pull Requests
 - Group related changes into a single commit with a clear message.
