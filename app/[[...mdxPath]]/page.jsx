@@ -15,7 +15,9 @@ export async function generateMetadata(props) {
 
   if (!params.mdxPath?.length) {
     return {
-      title: siteTitle,
+      title: {
+        absolute: siteTitle
+      },
       description: siteDescription
     }
   }
