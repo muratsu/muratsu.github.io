@@ -38,25 +38,27 @@ body .dark {
   margin: 0 auto;
   max-width: 1280px;
   min-height: 100vh;
-  padding: 32px 32px 48px;
+  padding: 32px 32px 48px 20px;
 }
 
 .site-grid {
   display: grid;
   gap: 56px;
-  grid-template-columns: 280px minmax(0, 1fr);
+  grid-template-columns: 360px minmax(0, 1fr);
 }
 
 .site-sidebar {
   align-self: start;
+  border-right: 1px solid var(--border);
   padding: 20px 10px 20px 0;
   position: sticky;
   top: 24px;
 }
 
 .site-avatar-link {
-  display: inline-block;
+  display: block;
   margin-bottom: 18px;
+  width: fit-content;
 }
 
 .site-avatar {
@@ -68,15 +70,18 @@ body .dark {
 
 .site-brand {
   color: inherit;
-  display: inline-block;
-  margin-bottom: 20px;
+  display: block;
+  margin-bottom: 24px;
   text-decoration: none;
+  width: fit-content;
 }
 
 .site-brand-title {
-  font-size: 1.05rem;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
   font-weight: 700;
   letter-spacing: -0.02em;
+  line-height: 0.98;
+  white-space: nowrap;
 }
 
 .site-intro {
@@ -141,9 +146,8 @@ body .dark {
 }
 
 .site-main {
-  border-left: 1px solid var(--border);
   min-width: 0;
-  padding: 12px 0 0 56px;
+  padding-top: 12px;
 }
 
 .site-main article {
