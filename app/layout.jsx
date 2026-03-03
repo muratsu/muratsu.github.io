@@ -58,7 +58,7 @@ export default async function RootLayout({ children }) {
                   className="site-avatar"
                   height={88}
                   priority
-                  src="/avatar.svg"
+                  src="/murat.jpg"
                   width={88}
                 />
               </Link>
