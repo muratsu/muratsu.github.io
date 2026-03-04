@@ -30,6 +30,11 @@ export const metadata = {
     template: `%s | ${siteTitle}`
   },
   description: siteDescription,
+  icons: {
+    apple: '/murat.jpg',
+    icon: '/murat.jpg',
+    shortcut: '/murat.jpg'
+  },
   openGraph: {
     description: siteDescription,
     siteName: siteTitle,
